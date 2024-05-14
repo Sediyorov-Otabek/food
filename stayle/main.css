@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.contener {
+  width: 100%;
+  max-width: 1248px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.navbar {
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+.navbar__box img {
+  width: 44px;
+  height: 43px;
+}
+.navbar__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+}
+.navbar__text a {
+  color: rgb(167, 165, 165);
+}
+.navbar__btn {
+  width: 155px;
+  height: 40px;
+  background: rgb(220, 120, 11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__btn button {
+  background: rgb(220, 120, 11);
+  width: 100%;
+  border: none;
+  color: white;
+}
+.navbar__btn button:hover{
+  cursor: pointer;
+  color: red;
+}
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 150px;
+}
+.hero__disc h2 {
+  margin-top: 160px;
+  font-size: 48.83px;
+}
+.hero__disc p {
+  font-size: 16px;
+  margin-top: 42px;
+}
+.hero__btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+
+.hero__btnin {
+  width: 160px;
+  height: 60px;
+  background: rgb(220, 120, 11);
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.hero__btnin:hover{
+  cursor: pointer;
+  color: red;
+}
+.hero__btnout {
+  width: 160px;
+  height: 60px;
+  color: rgb(220, 120, 11);
+  background: white;
+  border-radius: 5px;
+  border: none;
+}
+.hero__btnout:hover{
+  cursor: pointer;
+  color: red;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.features__wrapper {
+  width: 100%;
+  /* height: 107px; */
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  
+}
+.features__text {
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.features__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  /* height: 107px; */
+  margin-top: 45px;
+}
+.features__card p {
+  text-align: center;
+  margin:10px 0 ;
+}
+.features__card b{
+  margin: 15px;
+}
+.features__card img:hover{
+   transform: scale(1.1);
+  transition: all ease-in-out;
+}
+.girl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 120px;
+  margin-bottom: 115px;
+}
+.girl__card {
+  width: 50%;
+  height: 500px;
+}
+.girl__text {
+  width: 40%;
+  height: 317px;
+  /* border: 1px solid red; */
+  gap: 30px;
+  /* display: flex;
+    align-items: center;
+    justify-content: left; */
+  /* flex-direction: column; */
+}
+.text__desc {
+  margin-top: 30px;
+}
+.text__btn {
+  width: 142px;
+  height: 42px;
+  color: white;
+  background: rgb(220, 120, 11);
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+}
+.text__btn:hover{
+  cursor: pointer;
+  color: red;
+}
+.menu {
+  width: 100%;
+  margin-bottom: 179px;
+}
+.menu__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.menu__name {
+  font-size: 16px;
+  color: rgb(220, 120, 11);
+}
+.menu__text b {
+  margin-top: 20px;
+  font-family: 32px;
+}
+.menu__desc p {
+  width: 748px;
+  height: 64px;
+  text-align: center;
+  margin-top: 30px;
+}
+.menu__card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card {
+  width: 360px;
+  height: 460px;
+  border: 1px solid rgb(228, 225, 225);
+  border-radius: 76px 10px 10px;
+}
+.card img {
+  border-radius: 75px 10px 75px 0;
+  width: 100%;
+}
+.card img:hover{
+  transform: scale(1.1);
+  transition: all ease-in-out;
+}
+.card__desc {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.card__cost {
+  display: flex;
+  justify-content: space-between;
+}
+.card__btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__btn button {
+  width: 36px;
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(220, 120, 11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__btn button:hover{
+  cursor: pointer;
+  color: rebeccapurple;
+}
+.card__btnend {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.card__btnend button {
+  width: 142px;
+  height: 42px;
+  color: rgb(220, 120, 11);
+  border: 1px solid rgb(220, 120, 11);
+  background: white;
+}
+.card__btnend button:hover{
+  cursor: pointer;
+  color: red;
+}
+.background {
+  width: 100%;
+  height: 510px;
+  background: rgb(233, 223, 213);
+}
+.download {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  
+}
+.download__text {
+  width: 40%;
+  height: 317px;
+  /* border: 1px solid red; */
+}
+.download__btn {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+.app {
+  border: none;
+  width: 163px;
+  height: 48px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 6px;
+}
+.app:hover{
+  cursor: pointer;
+}
+.play {
+  border: 1px solid rgb(207, 206, 206);
+  width: 163px;
+  height: 48px;
+  background: rgb(253, 249, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 6px;
+}
+.play:hover{
+  cursor: pointer;
+}
+.Testimonial {
+  width: 750px;
+  height: 476px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 220px;
+  margin-bottom: 120px;
+}
+.contact {
+  width: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15%;
+}
+.contact__int {
+  width: 750px;
+  height: 75px;
+  background: white;
+  border-radius: 10px;
+  border: none;
+  margin: 46px;
+}
+.contact__int input {
+  width: 594px;
+  height: 75px;
+  border: none;
+}
+.contact__int button {
+  width: 151px;
+  height: 75px;
+  background: rgb(220, 120, 11);
+  border: none;
+  border-radius: 10px;
+}
+.contact__int button:hover{
+  cursor: pointer;
+  color: red;
+}
+.background__black{
+  width: 100%;
+  background: black;
+}
+.footer__mine{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.footer{
+   margin-top: 50px;
+   line-height: 2.5;
+}
+.footer b{
+  color: white;
+}
+.footer a{
+  color: white;
+}
+.footer a:hover{
+  cursor: pointer;
+  color: rebeccapurple;
+}
